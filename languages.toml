@@ -1,0 +1,13 @@
+[[language]]
+name = "python"
+auto-format = true
+language-servers = ["pylsp"]
+
+[[language]]
+name = "rust"
+auto-format = true
+indent = { tab-width = 4, unit = "    " }
+
+[language-server.pylsp.config.pylsp]
+plugins.pyls_mypy.enabled = true
+plugins.pyls_mypy.live_mode = true

@@ -1,0 +1,6 @@
+inherits = "tokyonight_moon"
+"ui.background" = {}
+"ui.linenr.selected" = {fg = "green"}
+# "ui.cursor.primary" = { fg = "base03", bg = "red" }
+"ui.cursorline.primary" = {}
+
